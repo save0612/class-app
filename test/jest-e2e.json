@@ -1,0 +1,13 @@
+{
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "moduleFileExtensions": ["js", "json", "ts"],
+    "rootDir": "./",
+    "testRegex": ".e2e-spec.ts$",
+    "coverageDirectory": "../coverage",
+    "collectCoverage": true
+  }
+  
